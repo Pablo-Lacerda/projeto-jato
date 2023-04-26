@@ -1,0 +1,138 @@
+.container {
+    padding: 100px;
+    align-items: center;
+    margin: 0;
+    background-color: #000000;
+    /*background-image: url(./img/bgpablo.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center center;*/
+    margin-top: -8px;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.logop {
+    height: 300px;
+    margin: 0;
+}
+
+.menu-lateral ul {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.menu-lateral .icone {
+	width: 30px;
+	transition: 0.3s ease-in-out;
+}
+.servicos {
+    font-size: 15px;
+    font-weight: 400;
+    color: #f2f2f2;
+}
+.corletrap {
+   
+   color: #f2f2f2;
+}
+.menu-lateral .icone:hover {
+	transform: scale(1.2);
+}
+
+.caixa-lista {
+    display: inline;
+    float: right;
+    margin-bottom: 30px;
+    font-size: 20px;
+    color: #f2f2f2;
+    width: 100vw;
+}
+.paragrafo {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.paragrafo2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.posparagrafo {
+    display: flex;
+    font-size: 20px;
+    color: #f2f2f2;
+}
+
+.diafuncionamento {
+    font-size: 17px;
+   
+}
+
+
+
+.titulo {
+    font-size: 40px;
+    font-family: Bradley Hand, cursive;
+    margin-bottom: 70px;
+    
+}
+.listas-servicos {
+    font-size: 20px;
+    color: #f2f2f2;
+    float: right;
+}
+.titulo-lista {
+    float: right;
+    color: #f2f2f2;
+    
+    
+}
+.imagem {
+    width: 300px;
+    margin-top: 100px;
+    border-radius: 5%;
+}
+
+.botoes-carrossel {
+	display: flex;
+	gap: 20px;
+    margin-right: 5px;
+}
+
+.botoes-carrossel .botao {
+	background-color: #ffffff;
+	width: 15px;
+	height: 15px;
+	border-radius: 100%;
+	border: 2px solid transparent;
+	cursor: pointer;
+	border-color: #ffffff;
+    margin-top: 20px;
+    
+}
+
+
+
+.alinhamento {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1px;
+}
+.trasparente {
+    opacity: 0.5;
+}
+
+
+
+    
+
